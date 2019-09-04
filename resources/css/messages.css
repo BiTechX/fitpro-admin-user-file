@@ -1,0 +1,109 @@
+.profile-img-msg{
+ height:56px;
+ width:56px;
+ border-radius:50%;
+}
+.form-control:focus{
+    border :none!important;
+}
+.msg-line{
+    width:100%;
+    background-color: rgba(0,0,0,0.1);;
+}
+  .send-button{
+     
+      border-radius:50%;
+      height:76px;
+      width:76px;
+      display:flex;
+      align-items:center;
+      justify-content:center;  
+      border:0px;
+    }
+    .send-text{
+       border:none !important;
+       box-shadow:none !important;
+        margin:20px;
+       height:50px;
+       overflow:auto; 
+    }
+     .icon-sm{
+        font-size:32px;
+    }
+    .link-button{
+        padding:20px;
+    }
+   
+@media(max-width:767px){
+    
+    .msg-line{
+     width:0%;   
+    }
+    .box-hide-sm{
+        box-shadow:none;
+        border:none;
+    }
+    .padding-0-sm{
+        padding:0px !important;
+    }
+    .box-hide-pc{
+    margin-bottom:20px;
+        
+    }
+    .msg-padding{
+        padding:15px;
+    }
+    
+} 
+@media(min-width:768px){
+    .box-hide-pc{
+        box-shadow:none;
+        border:none;
+    }
+    .msg-padding{
+        padding:30px;
+    }
+     .tb{
+     display:inline-flex;   
+    }
+}
+@media(max-width:991px){
+    .send-button{
+          height:44px;
+            width:44px;
+    }
+    .send-text{
+        margin:5px 25px;
+        margin-right:0px;
+    }
+    .icon-sm{
+        font-size:22px;
+    }
+    .link-button{
+        padding:10px 15px;
+    }
+}
+@media(max-width:1199px){
+    .hide-row{
+    display:none !important;
+    }
+}    
+
+#MessageBox {
+    width: 100%;
+    height: 70px;   
+    border: 0px!important;
+}
+
+#chatMessageLoad
+{
+    width: 100%;
+    height: 45vh;
+    overflow: auto;
+    margin: 20px 0px;
+}
+
+.chat-file-send
+{
+    margin:8px 0px;
+}

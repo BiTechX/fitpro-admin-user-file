@@ -1,0 +1,1 @@
+[03-Sep-2019 17:01:44 UTC] WordPress database error Table 'bitechxc_58a.58a_fitPro_module_info' doesn't exist for query SELECT * FROM 58a_fitPro_module_info WHERE course_id = '3490' ORDER BY id
